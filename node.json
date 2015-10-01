@@ -1,0 +1,10 @@
+{
+  "name": "sample-node-name",
+  "chef_environment": "_default",
+  "setup": {
+     "set_fqdn": "*"
+  },
+  "run_list": [
+    "recipe[3nel::default]"
+  ]
+}
