@@ -4,7 +4,10 @@
   "setup": {
      "set_fqdn": "*"
   },
+  "override_attributes": {
+  
+  },
   "run_list": [
-    "recipe[3nel::default]"
+    "recipe[3nel::nginx]"
   ]
 }
